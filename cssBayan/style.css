@@ -35,6 +35,7 @@ input[type=radio] {
   .acc__container {
     background-color: rgb(61, 134, 168);
     padding: 15px 25px;
+    transition: 1s;
   }
   .acc__container:hover ~ .content {
     display: block;
