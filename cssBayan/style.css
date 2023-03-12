@@ -24,7 +24,7 @@ input[type=radio] {
     display: none;
   }
   .section__input {
-      display: none;
+    display: none;
   }
   .section__input:checked ~ .content {
     display: block;
@@ -37,16 +37,13 @@ input[type=radio] {
     padding: 15px 25px;
     transition: 1s;
   }
-  .acc__container:hover ~ .content {
-    display: block;
-  }
+  
   .section__label {
-
     font-size: 1.5em;
     cursor: pointer;
     position: relative;
-
     margin-bottom: 20px;
+    transition: 1s;
   }
   .section__label::after {
     content: "";
